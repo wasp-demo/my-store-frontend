@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-store-frontend
+  description: ''
+  annotations:
+    backstage.io/kubernetes-id: my-store-frontend
+    platform.wasp.silvios.me/template: node-service@33a3b392daf87a5db3554c1334688dffe2ced40a
+    github.com/project-slug: wasp-demo/my-store-frontend
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-alpha
+  system: my-store
